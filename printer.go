@@ -350,7 +350,7 @@ func (p *printer) raw() string {
 	case reflect.Bool:
 		return fmt.Sprintf("%#v", p.value.Bool())
 	case reflect.Int, reflect.Int8, reflect.Int16, reflect.Int32, reflect.Int64:
-		return fmt.Sprintf("%#v", p.value.Int())
+		return fmt.Sprintf("%v", p.value)
 	case reflect.Uint, reflect.Uintptr:
 		return fmt.Sprintf("%#v", p.value.Uint())
 	case reflect.Uint8:
