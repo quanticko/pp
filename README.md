@@ -95,6 +95,8 @@ NoColor
 
 ![](http://i.gyazo.com/ab791997a980f1ab3ee2a01586efdce6.png)
 
+Change to test if Glide pick ups the latest version
+
 ## License
 
 MIT License
